@@ -1,0 +1,32 @@
+// ------------------------ dane 2016
+_POMIARY:
+CrossTable(DataPomiaru, Pomiar, 5)
+LOAD F1 AS StacjaKod, 
+     F2 AS SubstancjaKod, 
+     F3, 
+     F4, 
+     [Czas pomiaru], 
+	*
+FROM
+[..\ArchiwumDane\2016\*24g.xlsx]
+(ooxml, embedded labels, header is 1 lines, table is [], filters(
+Transpose()
+));
+
+
+
+
+NoConcatenate
+
+POMIARY:
+LOAD
+	StacjaKod
+	,SubstancjaKod
+	,DATE(LEFT(DataPomiaru,5),'YYYY-MM-DD') AS DataPomiaru
+	,Pomiar
+RESIDENT _POMIARY
+WHERE RIGHT(DataPomiaru,5)='00000'
+AND LEN(Pomiar) > 1;
+
+
+DROP TABLE _POMIARY;

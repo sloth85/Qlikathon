@@ -1,0 +1,12 @@
+{
+	"name" : " Vizlib Activity Gauge",
+	"description" : "Vizlib Activity Gauge",
+	"icon" : "gauge-chart",
+	"type" : "visualization",
+	"preview": "vizlibactivitygauge.png",
+ 	"email": "support@vizlib.com",
+	"version": "1.2.4",
+	"author": "Vizlib ltd.",
+	"license" : "2016-2017 © Vizlib Ltd. - All rights reserved.",
+    "dependencies" : { "qlik-sense" : ">=2.2.x" }
+}

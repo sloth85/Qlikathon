@@ -1,0 +1,18 @@
+ {
+	"name": " Vizlib Table",
+	"description": "Classic Table which includes majority of QlikView functionality with extended formatting options.",
+	"icon": "table",
+	"type": "visualization",
+	"preview" : "VizlibTable.png",
+	"version": "1.6",
+	"author": "Ralf Becher & Vizlib ltd.",
+	"homepage": "Vizlib.com",
+	"email":	"support@vizlib.com",
+	"keywords": "qlik-sense, visualization",	
+	"license": "2017 © Vizlib Ltd. - All rights reserved.",
+	"tc":	"http://www.vizlib.com/termsandconditions/",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

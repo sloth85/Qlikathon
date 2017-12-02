@@ -1,0 +1,17 @@
+ {
+	"name": " Vizlib Scatter Chart",
+	"description": "Classic Scatter Chart which includes majority of QlikView functionality with extended formatting options and HTML support.",
+	"icon": "scatter-chart",
+	"type": "visualization",
+	"preview" : "VizlibScatterChart.png",
+	"author": "Vizlib ltd.",
+	"homepage": "Vizlib.com",
+	"email":	"support@vizlib.com",
+	"keywords": "qlik-sense, visualization",	
+	"license": "2017 © Vizlib Ltd. - All rights reserved.",
+	"tc":	"http://www.vizlib.com/termsandconditions/",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

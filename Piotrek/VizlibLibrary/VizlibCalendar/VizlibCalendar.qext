@@ -1,0 +1,19 @@
+{
+	"name": " Vizlib Calendar",
+	"description": "Vizlib Calendar is a highly customisable, supported and easy-to-use control component for Qlik Sense which provides features as auto-detection of dates, date ranges, font and size control, interactivity, custom colours, pre-defined selections and lots of styling and formatting options.",
+	"icon": "calendar",
+	"preview": "VizlibCalendar.png",
+	"type": "visualization",
+	"version": "1.0.1",
+	"author": "Vizlib ltd.",
+	"homepage": "vizlib.com",
+	"keywords": "qlik-sense, visualization",
+	"license": "2017 © Vizlib Ltd. - All rights reserved.",
+	"email":	"support@vizlib.com",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=2.0.x"
+	},
+	"src": "/extensions/VizlibCalendar/VizlibCalendar.png"	
+}
+

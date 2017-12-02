@@ -1,0 +1,20 @@
+{
+	"name": " Vizlib Heatmap",
+	"description": "Graphical representation of data where the individual values contained in a matrix are represented as colors",
+	"icon": "draggable",
+	"type": "visualization",
+	"preview": "VizlibHeatmap.png",
+	"version": "1.2.1",
+	"author": "Vizlib ltd.",
+	"homepage": "vizlib.com",
+	"keywords": "qlik-sense, visualization",
+	"license": "2017 © Vizlib Ltd. - All rights reserved.",
+	"email":	"support@vizlib.com",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=2.0.x"
+	},
+	"src": "/extensions/VizlibHeatmap/VizlibHeatmap.png"
+
+}
+

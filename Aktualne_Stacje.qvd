@@ -1,327 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- <QvdTableHeader>
-   <QvBuildNo>50522</QvBuildNo>
-   <CreatorDoc>C:\Users\jharazin\Documents\Qlik\Sense\Apps\SmoQ_genertor_danych_biezacych.qvf</CreatorDoc>
-   <CreateUtcTime>2017-12-03 13:44:38</CreateUtcTime>
-   <SourceCreateUtcTime></SourceCreateUtcTime>
-   <SourceFileUtcTime></SourceFileUtcTime>
-   <SourceFileSize>-1</SourceFileSize>
-   <StaleUtcTime></StaleUtcTime>
-   <TableName>Stacje</TableName>
-   <Fields>
-     <QvdFieldHeader>
-       <FieldName>_KEY_city</FieldName>
-       <BitOffset>0</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>0</Offset>
-       <Length>1314</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-         <String>$integer</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>_KEY_root</FieldName>
-       <BitOffset>8</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>1314</Offset>
-       <Length>1314</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-         <String>$integer</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>StacjaID</FieldName>
-       <BitOffset>16</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>2628</Offset>
-       <Length>1459</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-         <String>$integer</String>
-         <String>$key</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>NazwaStacji</FieldName>
-       <BitOffset>24</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>4087</Offset>
-       <Length>3776</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>DataRozpoczecia</FieldName>
-       <BitOffset>64</BitOffset>
-       <BitWidth>7</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>TIMESTAMP</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt>DD.MM.YYYY hh:mm:ss[.fff]</Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>76</NoOfSymbols>
-       <Offset>7863</Offset>
-       <Length>1900</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-         <String>$integer</String>
-         <String>$timestamp</String>
-         <String>$date</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>Latitude</FieldName>
-       <BitOffset>32</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>9763</Offset>
-       <Length>2999</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>Longitude</FieldName>
-       <BitOffset>40</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>12762</Offset>
-       <Length>3002</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$numeric</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>AdresStacji</FieldName>
-       <BitOffset>48</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>-2</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>145</NoOfSymbols>
-       <Offset>15764</Offset>
-       <Length>2777</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>LokalizacjaGeo</FieldName>
-       <BitOffset>56</BitOffset>
-       <BitWidth>8</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>158</NoOfSymbols>
-       <Offset>18541</Offset>
-       <Length>3609</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$geopoint</String>
-         <String>$ascii</String>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>StacjaMiejscowosc</FieldName>
-       <BitOffset>75</BitOffset>
-       <BitWidth>7</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>124</NoOfSymbols>
-       <Offset>22150</Offset>
-       <Length>1383</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>Gmina</FieldName>
-       <BitOffset>82</BitOffset>
-       <BitWidth>7</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>124</NoOfSymbols>
-       <Offset>23533</Offset>
-       <Length>1356</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-         <String>$geoname</String>
-         <String>$relates_commune.Gmina_GeoInfo</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>Powiat</FieldName>
-       <BitOffset>89</BitOffset>
-       <BitWidth>7</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>114</NoOfSymbols>
-       <Offset>24889</Offset>
-       <Length>1315</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-     <QvdFieldHeader>
-       <FieldName>Wojewodztwo</FieldName>
-       <BitOffset>71</BitOffset>
-       <BitWidth>4</BitWidth>
-       <Bias>0</Bias>
-       <NumberFormat>
-         <Type>UNKNOWN</Type>
-         <nDec>0</nDec>
-         <UseThou>0</UseThou>
-         <Fmt></Fmt>
-         <Dec></Dec>
-         <Thou></Thou>
-       </NumberFormat>
-       <NoOfSymbols>16</NoOfSymbols>
-       <Offset>26204</Offset>
-       <Length>227</Length>
-       <Comment></Comment>
-       <Tags>
-         <String>$text</String>
-       </Tags>
-     </QvdFieldHeader>
-   </Fields>
-   <Compression></Compression>
-   <RecordByteSize>12</RecordByteSize>
-   <NoOfRecords>158</NoOfRecords>
-   <Offset>26431</Offset>
-   <Length>1896</Length>
-   <Lineage></Lineage>
-   <Comment></Comment>
- </QvdTableHeader>
-    1    2    3    4    5    6    7    8 	   9 
-   10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31     32 !   33 "   34 #   35 $   36 %   37 &   38 '   39 (   40 )   41 *   42 +   43 ,   44 -   45 .   46 /   47 0   48 1   49 2   50 3   51 4   52 5   53 6   54 7   55 8   56 9   57 :   58 ;   59 <   60 =   61 >   62 ?   63 @   64 A   65 B   66 C   67 D   68 E   69 F   70 G   71 H   72 I   73 J   74 K   75 L   76 M   77 N   78 O   79 P   80 Q   81 R   82 S   83 T   84 U   85 V   86 W   87 X   88 Y   89 Z   90 [   91 \   92 ]   93 ^   94 _   95 `   96 a   97 b   98 c   99 d   100 e   101 f   102 g   103 h   104 i   105 j   106 k   107 l   108 m   109 n   110 o   111 p   112 q   113 r   114 s   115 t   116 u   117 v   118 w   119 x   120 y   121 z   122 {   123 |   124 }   125 ~   126    127 Ä   128 Å   129 Ç   130 É   131 Ñ   132 Ö   133 Ü   134 á   135 à   136 â   137 ä   138 ã   139 å   140 ç   141 é   142 è   143 ê   144 ë   145 í   146 ì   147 î   148 ï   149 ñ   150 ó   151 ò   152 ô   153 ö   154 õ   155 ú   156 ù   157 û   158    1    2    3    4    5    6    7    8 	   9 
-   10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31     32 !   33 "   34 #   35 $   36 %   37 &   38 '   39 (   40 )   41 *   42 +   43 ,   44 -   45 .   46 /   47 0   48 1   49 2   50 3   51 4   52 5   53 6   54 7   55 8   56 9   57 :   58 ;   59 <   60 =   61 >   62 ?   63 @   64 A   65 B   66 C   67 D   68 E   69 F   70 G   71 H   72 I   73 J   74 K   75 L   76 M   77 N   78 O   79 P   80 Q   81 R   82 S   83 T   84 U   85 V   86 W   87 X   88 Y   89 Z   90 [   91 \   92 ]   93 ^   94 _   95 `   96 a   97 b   98 c   99 d   100 e   101 f   102 g   103 h   104 i   105 j   106 k   107 l   108 m   109 n   110 o   111 p   112 q   113 r   114 s   115 t   116 u   117 v   118 w   119 x   120 y   121 z   122 {   123 |   124 }   125 ~   126    127 Ä   128 Å   129 Ç   130 É   131 Ñ   132 Ö   133 Ü   134 á   135 à   136 â   137 ä   138 ã   139 å   140 ç   141 é   142 è   143 ê   144 ë   145 í   146 ì   147 î   148 ï   149 ñ   150 ó   151 ò   152 ô   153 ö   154 õ   155 ú   156 ù   157 û   158 u   117    16 C   67 ¡#  9153 J'  10058 8  568 ü  671 Ü  902 ∂  950 ›  989 -  813 (#  9000 **  10794 â'  10121 ◊#  9175 ]  605 ^  606 n  622 Ó  750 Ë  488 Ï   236 ë   145 Œ   206 –   208 4   52 3'  10035 ⁄  986 ¡  961 J  842 X  856 ˘  761   769 ]  861 d  612 F'  10054 Ÿ  729 „  739 ’  725 µ  437 á'  10119    544 Ò  497 ı  501 
-  266    240 ¯   248   285 {  379 m   109 N  590 X  600 f  870 .'  10030 €  987 B  834 ê  400 Æ(  10414 ‹  732 ›  733 ‡  736 À  459 i  361 ~  382 Ú#  9202 2'  10034 Ø  943   789   795 U  853 í  402 ‰  740 ≠  429 €#  9179   530   282 r   114 Å   129 &   38 J   74 Ñ   132 Ü   134 '  295 c  355 ∞  944 ◊  983 %  805 
-  778 √(  10435 º  444 j  618 ‚  738 Á  743 (  552 “  466 y%  9593 è   143    11    14 û   158 2  562 ¬(  10434 H  584 ì  659 '  10005 ≤  946 ∆  966 .  814 œ(  10447 ™  426 ∆(  10438 a  609 Ï  748 ª  443   531 &  550 ◊  471 Â  485 §   164 T   84 Ü(  10374 ô  665 ∏  952 ò  920 E  837 I  841 :)  10554 M  845 ë  401 õ'  10139 ⁄  730 ﬁ  734 ¡  449   515 É  387 ·   225 æ   190 Ë   232 F   70 ú   156 ?  319 ~  638 r  882 )  809 P  848   798    800 m  877 ã'  10123 à'  10120 €  731 Â  741 Ê  742 (  10254 Ã  460   517 v  374 x  376 é   142 Wroc≈Çaw - Korzeniowskiego Dzier≈ºoni√≥w - Pi≈Çsudskiego Nowa Ruda - Srebrna Jelenia G√≥ra - Ogi≈Ñskiego ≈Å√≥d≈∫-Jana Paw≈Ça II 15 K-Ko≈∫le automat 1 Rzesz√≥w-Nowe Miasto Konin-Wyszynskiego Borowiec-Drapalka Szczecin_≈ÅƒÖczna Katowice, ul. Plebiscytowa/A4 Czerwionka-Leszczyny, ul. Kopalniana Ma≈Çogoszcz, ul. S≈Çoneczna Krak√≥w, ul. Dietla Krempna-MPN-WIOS Bia≈Çystok-Miejska Bia≈Çystok-Podmiejska Suwa≈Çki, ul. Pu≈Çaskiego 73 IMGW ≈Åeba - RƒÖbka Piast√≥w-Pu≈Çaskiego Bia≈ÇaP-Orzechowa Toru≈Ñ Airpointer Toru≈Ñ POLICJA Toru≈Ñ, KASZOWNIK Legnica - Rzeczypospolitej Boles≈Çawiec Szczecin_Andrzejewskiego Widuchowa Ustro≈Ñ, ul. Sanatoryjna 7 ≈ªywiec, ul. Kopernika  83 a Kielce, ul. Jagiello≈Ñska Nowiny, ul. Parkowa WIO≈ö ElblƒÖg ul. Ba≈ºy≈Ñskiego Borsukowizna-Wiejska August√≥w - mobilne AM1 Gda≈Ñsk ≈ör√≥dmie≈õcie AM10 Gdynia ≈ör√≥dmie≈õcie AM11 S≈Çupsk Kniaziewicza Skawina, os. Ogrody Kasz√≥w Warszawa-Marsza≈Çkowska P≈Çock-Gimnazjum P≈Çock-Reja Lublin ul. Obywatelska Bia≈Çy S≈Çup (RPN) IMGW-Jarczew Zamo≈õƒá ul. Hrubieszowska 69A Wschowa ul. Kazimierza Wielkiego Wa≈Çbrzych - Wysockiego Opole manualna 4 Zdzieszowice automat 2 WIO≈ö Go≈Çdap ul. Jaƒáwieska WIO≈ö Ostr√≥da Pi≈Çsudskiego Szczecin_Pi≈Çsudskiego Rybnik, ul. Borki 37 d Krak√≥w, Aleja Krasi≈Ñskiego Ryman√≥w-Zdr√≥j-SamorzƒÖd AM4 Gdynia Pog√≥rze AM5 Gda≈Ñsk Szad√≥≈Çki AM8 Gda≈Ñsk Wrzeszcz Zakopane, ul. Sienkiewicza Gorz√≥w Wlkp. ul. Kosynier√≥w Gdy≈Ñskich ≈ªary, ul. Szymanowskiego 8 Airpointer W≈Çoc≈Çawek Kudowa-Zdr√≥j Poznan-Polanka Bielsko-Bia≈Ça, ul. Kossak-Szczuckiej 19 Cieszyn, ul. Mickiewicza 13 Z≈Çoty Potok, Le≈õnicz√≥wka Krak√≥w, ul. Bulwarowa AM12 Ko≈õcierzyna Targowa Olkusz, ul. Francesco Nullo Szar√≥w, ul. Spokojna Warszawa-Komunikacyjna Lublin-Podmiejska Wroc≈Çaw - Bartnicza Wroc≈Çaw - Wi≈õniowa K≈Çodzko - Szkolna Osiecz√≥w ZƒÖbkowice ≈ölƒÖskie Zgorzelec - Bohater√≥w Getta ≈Å√≥d≈∫-Widzew Zgierz-≈ör√≥dmie≈õcie Poznan-Dabrowskiego Szczecinek_Przemys≈Çowa DƒÖbrowa G√≥rnicza, ul. TysiƒÖclecia 25a Po≈Çaniec, ul. Ruszcza≈Ñska Krak√≥w, ul. Telimeny Tarn√≥w, ul. Bitwy pod Studziankami Lomza Sikorskiego 48/94 AM9 Gdynia DƒÖbrowa AM17 Liniewko Ko≈õcierskie Warszawa-Targ√≥wek Granica-KPN Pu≈Çawy ul. Karpi≈Ñskiego Inowroc≈Çaw Airpointer Czerniawa Dzia≈Çoszyn Bydgoszcz Warszawska ≈ªyrard√≥w-Roosevelta Konstancin-Jeziorna-Wierzejewskiego Olesno automat 4 Nisko-Szklarniowa-WIOS WIO≈ö E≈Çk Piaski-Krzyzowka Koszalin_ArmiiKrajowej Katowice, ul. Kossutha 6 Krak√≥w, os. Wad√≥w Nowy SƒÖcz, ul. Nadbrze≈ºna Mielec-Biernackiego-WIOS Bia≈Çystok-Warszawska POLPHARMA Starogard Gda≈Ñski - Lubichowska Szymbark Warszawa-Podle≈õna Warszawa-Ursyn√≥w Legionowo-Zegrzy≈Ñska Otwock-Brzozowa Ciechocinek ≈önie≈ºka Opole automat 5 Przemysl-Grunwaldzka-WIOS Kalisz-Wyszynskiego Pila, ul. Kusocinkiego Sosnowiec, ul. Lubelska 51 Tychy, ul. To≈Çstoja 1 ≈ªory, Os. Gen. W≈Çadys≈Çawa Sikorskiego 52_(2) Wodzis≈Çaw ≈ölƒÖski, ul. Ga≈Çczy≈Ñskiego 1 Krak√≥w, ul. Bujaka Krak√≥w, os. Piast√≥w AM2 Gda≈Ñsk Stogi AM6 Sopot Trzebinia, os. ZwiƒÖzku Walki M≈Çodych Radom-Tochtermana Zielona G√≥ra ul. Kr√≥tka W≈Çoc≈Çawek OKRZEI Koniczynka Bory Tucholskie O≈Çawa - ≈ªo≈Çnierzy AK Bydgoszcz Plac Pozna≈Ñski Parzniewice Jaslo-Sikorskiego-WIOS KM≈ö Puszcza Borecka Gliwice, ul. Mewy 34 Zabrze, ul. M. Curie-Sk≈Çodowskiej 34 Czƒôstochowa, ul. AK/Jana Paw≈Ça II Czƒôstochowa, ul. Baczy≈Ñskiego 2 WIO≈ö Olsztyn ul. Puszkina Krak√≥w, ul. Z≈Çoty R√≥g Tarn√≥w, ul. Ks. Romana Sitko AM3 Gda≈Ñsk Nowy Port AM15 Malbork Mickiewicza AM16 Lƒôbork Malczewskiego Nowy Targ, Plac S≈Çowackiego Belsk-IGFPAN Siedlce-Konarskiego Smolary Bytnickie Sulƒôcin ul. Dudka GrudziƒÖdz Airpointer —ï  01.01.2005 00:00:00 `û  01.01.2011 00:00:00 Ã£  20.10.2014 00:00:00 @•  27.10.2015 00:00:00 ù  01.02.2010 00:00:00 3ì  03.03.2003 00:00:00 –ï  31.12.2004 00:00:00 û¢  22.12.2013 00:00:00 ®  01.10.2017 00:00:00 Ç•  01.01.2016 00:00:00 æ£  06.10.2014 00:00:00 Wï  01.09.2004 00:00:00 ëÉ  18.03.1992 00:00:00 Ωî  31.03.2004 00:00:00  ì  01.08.2003 00:00:00 Ö  07.04.1993 00:00:00 	†  01.03.2012 00:00:00 Ö  20.04.1993 00:00:00 gä  01.01.1997 00:00:00 uï  01.10.2004 00:00:00 ¶  01.01.2017 00:00:00 ˆí  01.01.2003 00:00:00 Õü  01.01.2012 00:00:00 Ûú  01.01.2010 00:00:00 vñ  15.06.2005 00:00:00 ä  01.10.1996 00:00:00 ˝è  01.12.2000 00:00:00 ;°  01.01.2013 00:00:00 ≤Ñ  01.01.1993 00:00:00 ù  21.05.2010 00:00:00 >ó  01.01.2006 00:00:00 Yz  01.10.1985 00:00:00 DÉ  01.01.1992 00:00:00 nñ  07.06.2005 00:00:00 ¢ä  01.03.1997 00:00:00 Lå  01.05.1998 00:00:00 Âå  01.10.1998 00:00:00 Pì  01.04.2003 00:00:00 ¡†  01.09.2012 00:00:00 §  01.01.2015 00:00:00 ê§  04.05.2015 00:00:00 1ò  01.09.2006 00:00:00 !ú  05.06.2009 00:00:00 õ  01.09.2008 00:00:00 &î  01.11.2003 00:00:00 Èì  01.09.2003 00:00:00 âë  01.01.2002 00:00:00 ‘ú  01.12.2009 00:00:00 ¨§  01.06.2015 00:00:00 ûû  04.03.2011 00:00:00 Øâ  01.07.1996 00:00:00 †á  21.01.1995 00:00:00 êü  01.11.2011 00:00:00 ˝~  01.01.1989 00:00:00 Sò  05.10.2006 00:00:00 Êù  01.09.2010 00:00:00 ´ò  01.01.2007 00:00:00 îï  01.11.2004 00:00:00 î  30.09.2003 00:00:00 uù  11.05.2010 00:00:00 Íá  05.04.1995 00:00:00 Mù  01.04.2010 00:00:00 âå  01.07.1998 00:00:00 ˘à  01.01.1996 00:00:00 ˆî  27.05.2004 00:00:00 Œö  01.07.2008 00:00:00 Có  06.01.2006 00:00:00 î  17.10.2003 00:00:00 Zú  01.08.2009 00:00:00 cî  01.01.2004 00:00:00 ê  01.01.2001 00:00:00 ˚î  01.06.2004 00:00:00 «å  01.09.1998 00:00:00 “•  21.03.2016 00:00:00 åÇ  01.07.1991 00:00:00 yû  26.01.2011 00:00:00 4iSuèêI@51.129378 ˆyåÚÃ]I@50.732817 ?8ü:JI@50.579914 (__ÎtI@50.913433 w¶(ó‡I@51.754613 ¬5wÙø,I@50.349608 Fò¢\I@50.024242 ˛Ú…ä·J@52.225633 Q›\¸m#J@52.276794 ËÖ;FºJ@53.470889 }ËÇ˙ñI@50.246795 åπk	˘I@50.16385 úÜ®¬ügI@50.809563 m ]lZI@50.057447 ~≈.r¡H@49.511297 ®·[X7êJ@53.126689 EbÇæëJ@53.138614 }uU†K@54.117878 Ø—r†á`K@54.754139 ›ãäJ@52.191728 •û°ºJ@52.029194 πƒëÅJ@53.012261 st¥™ÉJ@53.028647 8øa¢AÇJ@53.017628 äwÄ'-öI@51.204503 ÚÍ≤°I@51.263245 ˚ÀÓ…√∞J@53.380975 Ÿ=yX®èJ@53.122325 mu9% ‹H@49.719731 œˆË˜’H@49.671602 )îÖØØoI@50.872549 πâZö[iI@50.823108 ©›Ø|K@54.167847 ZFÍ=ïõJ@53.215492 ÜˇtÓJ@53.859528 Ó?2:-K@54.353336 5∏≠-<CK@54.525274 nàÒöW;K@54.463611 Ä°DK¸H@49.971047 ˝Ω4I@50.025028 ïªœÒ—J@52.225157 Œ9x&4GJ@52.556279 ‘Í"ÖFJ@52.550938 «Hˆ5°I@51.259431 Í#áüKI@50.590806 á¯á-=ËI@51.814367 Ó≤_w∫[I@50.716628 $Ú]J]ÊI@51.799722 O>=∂ebI@50.768729 ˙®7£VI@50.676856 m„OT66I@50.423533 ⁄ K˛''K@54.305908 eqˇëÈÿJ@53.694628 *¨TPQ∑J@53.432169 ‚w”-;I@50.111181 oŸ!˛aI@50.057678 â~m˝Ù≈H@49.546539 ±5[y…GK@54.560836 ªˇÈ*K@54.328336 Ñ-v˚¨0K@54.380279 8§QÅì•H@49.293564 Ñπ›À}^J@52.738214 JCçB“I@51.642656 #‹dTVJ@52.672648 q:9I@50.447096 €ä˝e˜2J@52.398175 ó<ûñËH@49.813464  é={ﬁH@49.738136 'i˛ZI@50.710889 Û¨§ﬂI@50.069308 fißÊrK@54.120694 ±àaá#I@50.277569 )\è¬ı I@50.007500 
-ıÙJ@52.219298 ﬂ¬∫ÒÓîI@51.163542 z√}‰÷éI@51.115933 ~åπk	ãI@51.086225 ¿Ÿ≤|7I@50.433493 ?è®®I@51.317630 6Õ;N—KI@50.592325 nN%@ìI@51.150391 Ã]K»·I@51.758050 W_]®ÌI@51.856692 óqSÕ5J@52.420319 Sñ!éuŸJ@53.698900 ~‡*O *I@50.329111 Y√EÓÈ6I@50.429014 ,πä≈oI@50.019036 O≤’ÂîI@50.020169 fÿ(Î7óJ@53.181394 ŸÏHıù;K@54.465758 ≤^ÇSK@54.104111 ∏ ;%J@52.290864 e¶¥˛ñ$J@52.285858 S>U£µI@51.419047 zﬁçÖeJ@52.793122 tµ˚ÀtI@50.912475 †ﬂ˜o|I@50.972167 ã˘π°)ëJ@53.134083 !ïbG„J@52.053811 ∏ÖÎQ
-J@52.080625 Òú˙@pI@50.876983 Ω4EÄ”CI@50.529892 ïö=–
-ÍJ@53.828455 ~…∆É-@J@52.501389 ·Çà‘K@54.193986 ∏îÛ≈ﬁ!I@50.264611 Á˛ÍqﬂI@50.100569 `çôDœH@49.619281 ±®à”I&I@50.299128 öñXçêJ@53.129306 Wv¡‡ö˚J@53.965664 8ÇTä—H@49.633714 ·ï$œı#J@52.280939 gI-îJ@52.160772 ÿHÑ+4J@52.407578 0*©–J@52.115725 ÜÂœ∑qJ@52.888422 ,®˛A^I@50.736389 nàÒöWUI@50.666736 ˝h8e‰H@49.784339 @¸¸˜‡ﬂI@51.749053 —/§√ìJ@53.154408 ( 4ö$I@50.285956 ⁄‚ü…I@50.099903 T˝JÁ√I@50.029416 '¿∞¸˘ I@50.007629 ﬁìáÖZI@50.010575 ∫øz‹∑I@50.099361 yY/K@54.367778 ó·?›@7K@54.431667 °drjgI@50.159406 Æ-</≥I@51.399084 +1œJ¯I@51.939783 d?ã•HTJ@52.658467 †¬§RäJ@53.080647 êˆ?¿‘J@53.662117 È∏ŸïxI@50.942073 BÍvˆïèJ@53.121764 ◊4Ô8E•I@51.291175 «ü®lXﬂH@49.744886 ∞u©˙K@54.124819 «ÿ	/¡#I@50.279333 çónÉ(I@50.3165 Ø\oõ©hI@50.817676 ¯›tÀkI@50.836389 EˆAñÂJ@53.789233 DƒÕ©d
-I@50.081197 ?5^∫II@50.017875 +È~N3K@54.400833 èå’ÊˇK@54.031247 ƒì›ÃËEK@54.546167 Ã∏©ÅÊΩH@49.483597 &P6ÂÍI@51.835120 ¿ïÏÿJ@52.172145 k”ÿ^J@52.172222 Ø^EF8J@52.437722 lxz•,øJ@53.493550 shëÌ|1@17.029250 =,‘öÊ•0@16.648050 …W)±É0@16.514422 ®ì≈˝á/@15.765608 z6´>Wo3@19.434925 ‡-ê<2@18.236575 ª'µ6@22.010575 XrãﬂD2@18.269036 ˛,ñ"˘1@17.074114 ÕÃÃÃÃ-@14.556250 ,IûÎ˚3@19.019469 πØ@Ù®2@18.659977 ëfD4@20.266099 ¡çî-Ú3@19.946008 ·ñè§§5@21.498606 —u·Á'7@23.155869 ñ@JÏ⁄:7@23.229903 yîJxBÔ6@22.934608 ⁄À∂”÷à1@17.534528 ¬Ÿ≠e÷4@20.837489 ‘aÖ[>&7@23.149389 ≤º´0õ2@18.606203 zƒËπÖ™2@18.666103 (∫.¸‡ú2@18.612808 ªÄó6.0@16.180513 IÇp$/@15.570354 ßÃÕ7¢S-@14.663347 ôüö≤√,@14.382222 ;‚ê§”2@18.826722 í≠.ß<3@19.234446 9% &·ö4@20.604998 C8fŸìà4@20.533506 Üç≤~3i3@19.410942 >ñ#d§7@23.642153 ’xÈ&1 7@23.000750 l¥Ë°¢2@18.635283 ø)¨TPâ2@18.536382 Û ˘ı1@17.046722  ·Câñ‘3@19.830422 Pß<∫∫3@19.726833 ¯· ! 5@21.014803 ˙_ÆE∞3@19.687672 ¡˛Î‹¥µ3@19.709791 
-F≥≤ë6@22.569133 ƒ	Lßuˇ6@22.997889 ∞rhëÌ¯5@21.972375 √ú†MJ7@23.290247 ·zÆGQ0@16.317500 ¿{Gç	E0@16.269677 πDkEÛ1@17.950278 ZH¿Ë2@18.120739 øôò.ƒN6@22.307681 %[]N	¯3@19.968892 AÇ‚«ò-@14.553900 ≠0}Ø!Ñ2@18.516139 :ÍË∏Ì3@19.926189 %≥zá€Ÿ5@21.851006 ]øJ~2@18.493331 ÜTQº é2@18.557781 !è‡F û2@18.620274 rﬁˇ«ı3@19.960083 OYM◊u.@15.228667 óUÿpA.@15.127808 'ŸÍrJ3@19.079261 :ÕÌ=0@16.238509  ‰Ñ	£ı0@16.959519 ñó¸O˛3@19.027318 .„¶ö£2@18.639069 øÄ^∏su3@19.458797 ˛ò÷¶±4@20.053492 q»“˘1@17.975861 NÔ‚ë3@19.569869 ”3ΩƒXB4@20.259167 ùÅëó55@21.004724 º∑_>ô6@22.598608 „•õƒ $1@17.141125 ⁄ñ?1@17.012689 ¥CVß0@16.653660 ß‘E
-›.@15.431719 ˙∑À~›—0@16.819786 #J{É/.@15.008175 ‡'†á3@19.529786 ∂yÀ’k3@19.421231 ˚#ñ‡0@16.877289 d≠°‘^¥0@16.704572 üp]1;3@19.231222 Y˝ÜG5@21.277367 s⁄SrN4@20.016822 Ò∏®5@21.004167 Ü»ÈÎ6@22.054381 ¯åDhw2@18.464911 nƒ@◊.2@18.182972 t	áﬁ
-5@21.042458 >ñ#dt4@20.454653 úãøÌ	ˆ5@21.961089 £Â@µ=2@18.241044 «F ^◊ü.@15.312190 Ù4`êÙ·-@14.941319 ñ]0∏Ê˛1@17.995708 ·œfn4@20.429892 Á≈âØv5@21.111186 l@Ñ∏j2@18.416878 ·&£ 6@22.112467 åJÍ4Y6@22.348450 #¢òº∆1@17.773464 ˚ı◊+,0@16.172544 .Ø\oõ˘2@18.975028 €√^(`4@20.122561 *q„∂4@20.714403 Œn-ì·p5@21.440942 Ö>X∆Ü.7@23.181744 81$'á2@18.527636 ÙzƒË5@21.116833 r¶	€Oˆ4@20.962156 ¬˚™\®5@21.033819 ®Tâ≤∑Ù4@20.955928 ]pø<5@21.237297 M/1ñÈ«2@18.780908 pCå◊ºz/@15.739722 °ü©◊-Ê1@17.899137 ≤ı·ò¡6@22.756239 t|¥8c2@18.048389 ıÇOs¬0@16.759572 Dj⁄≈4/3@19.184399 eRCÄ˝2@18.990236 Äµj◊Ñ∞2@18.689527 ¬1Àût2@18.455548 π‡˛Ú3@19.949189 ˘ıCl∞4@20.018317 ©›Ø|≥2@18.701111 è≈6©hî2@18.579722 q©;z3@19.477464 £'€¿%5@21.147474 ˜V$&®	/@15.518861 Ë1 3/3@19.059314 ¿Dà+Ø2@18.684258 uËÙºÔ1@17.934017 ﬁ>´ÃîJ1@17.291333 ≠ÖYhÁ¸1@17.987906 <ŸÕå~Ñ3@19.517556 §4õ«at5@21.454617 •jª	æ	6@22.038056 Á‰E&‡ß2@18.655764 }?5^∫≈2@18.772375 9≥]°3@19.117426 êŸYÙN!3@19.130111 8gDio|4@20.486075 D6ê.6Â3@19.895358 ëÌ|?5˛4@20.993000 ÷70πQ®2@18.657497 4°l3@19.032899 ØxÍëø1@17.746194 {ÿl4@20.028992 ‹Û¸i£ 4@20.791556 vp∞71H6@22.282001 *SÃA–i.@15.206667 œ.ﬂ˙∞>.@15.122444 ì†ä√2@18.762139 ul. Wyb. J.Conrada-Korzeniowskiego 18 ul. Pi≈Çsudskiego 26 ul. Srebrna 1a ul. Ogi≈Ñskiego 6 al. Jana Paw≈Ça II 15 ul. Boles≈Çawa ≈ömia≈Çego 5 Rejtana ul. Wyszy≈Ñskiego 3 ul. Drapa≈Çka 4 ul. ≈ÅƒÖczna al. G√≥rno≈õlƒÖska ul. Kopalniana ul. S≈Çoneczna 18 ul. Dietla ul. Waszyngtona 16 ul. 42 Pu≈Çku Piechoty ul. Pu≈Çaskiego RƒÖbka 1a ul. Pu≈Çaskiego 6/8 ul. Orzechowa ul. Wa≈Çy Gen. Sikorskiego 12 ul. Dziewulskiego 1 ul. Przy Kaszowniku al. Rzeczypospolitej 10/12 Juliusza S≈Çowackiego 2 ul. Andrzejewskiego 23 ul. Bulwary Rybackie 1 ul. Sanatoryjna 7 ul. Kopernika 83 a ul. Jagiello≈Ñska 68 ul. Parkowa ul. Ba≈ºy≈Ñskiego 6 ul. Zdrojowa ul. Powsta≈Ñc√≥w Warszawskich ul. Wendy ul. Kniaziewicza 30 os. Ogrody Bory ul. Marsza≈Çkowska 68 ul. Kr√≥lowej Jadwigi 4 ul. Reja 28 ul. Obywatelska 13 ul. Hrubieszowska 69A ul. Kazimierza Wielkiego ul. Wysockiego 11 os. Armii Krajowej ul. Piast√≥w 6 ul. Jaƒáwieska 15 Pi≈Çsudskiego 4 ul. Pi≈Çsudskiego 1 ul. Borki 37 d al. Krasi≈Ñskiego Parkowa 5 ul. Porƒôbskiego ul. Ostrzycka ul. Leczkowa ul. Sienkiewicza ul. Kosynier√≥w Gdy≈Ñskich ul. Szymanowskiego 8 ul. Che≈Çmicka Tadeusza Ko≈õciuszki 16 ul. Polanka ul. Kossak-Szczuckiej ul. Mickiewicza 13 Le≈õnicz√≥wka Kamienna G√≥ra ul. Bulwarowa ul. Targowa ul. Francesco Nullo ul. Spokojna al. Niepodleg≈Ço≈õci 227/233 ul. Bartnicza al. Wi≈õniowa/ul. Powst. ≈ölƒÖskich ul. Szkolna 8 ul. Powsta≈Ñc√≥w Warszawy 5 ul. Bohater√≥w Getta 1a ul. Czernika 1/3 ul. Mielczarskiego 1 ul. DƒÖbrowskiego 169 ul. Przemys≈Çowa 5 ul. 1000-lecia 25 a ul. Ruszcza≈Ñska 23 ul. Telimeny 9 ul. Bitwy pod Studziankami ul. Sikorskiego 48/94 ul. Szafranowa ul. Kondratowicza 8 ul. Kampinoski Park Narodowy ul. Karpi≈Ñskiego 5 ul. Solankowa ul. Stra≈ºacka 7 ul. Warszawska 10 ul. Roosevelta 2 Wierzejewskiego 12 ul. S≈Çowackiego Szklarniowa Pi≈Çsudskiego 27 ul. Armii Krajowej ul. Kossutha 6 Wad√≥w ul. Nadbrze≈ºna Biernackiego ul. Warszawska 75 A ul. Lubichowska ul. Podle≈õna 61 ul. Wokalna 1 ul. Zegrzy≈Ñska 38 ul. Brzozowa 2 ul. Tƒô≈ºniowa - Park Zdrojowy ≈önie≈ºka ul. Koszyka Grunwaldzka ul. Hanki Sawickiej ul. Kusoci≈Ñskiego ul. Lubelska 51 ul. To≈Çstoja 1 ul. Sikorskiego 52 ul. Ga≈Çczy≈Ñskiego 1 ul. Bujaka os. Piast√≥w ul. Kacze≈Ñce ul. Bitwy pod P≈Çowcami os. ZwiƒÖzku Walki M≈Çodych ul. Tochtermana 1 ul. Kr√≥tka ul. Okrzei ul. ≈ªo≈Çnierzy AK 9 Plac Pozna≈Ñski Ujƒôcie wody Sikorskiego Diabla G√≥ra ul. Mewy 34 ul. M. Sk≈Çodowskiej-Curie 34 ul. Armii Krajowej 2 ul. Baczy≈Ñskiego 2 ul. Puszkina 16 Z≈Çoty R√≥g ul. Ks. Romana Sitko ul. Wyzwolenia ul. Mickiewicza ul. Malczewskiego Plac S≈Çowackiego Osiedle PAN 1 ul. Konarskiego 11 ul. Dudka ul. Pi≈Çsudskiego 51 [17.02925,51.129378] [16.64805,50.732817] [16.514422,50.579914] [15.765608,50.913433] [19.434925,51.754613] [18.236575,50.349608] [22.010575,50.024242] [18.269036,52.225633] [17.074114,52.276794] [14.55625,53.470889] [19.019469,50.246795] [18.659977,50.16385] [20.266099,50.809563] [19.946008,50.057447] [21.498606,49.511297] [23.155869,53.126689] [23.229903,53.138614] [22.934608,54.117878] [17.534528,54.754139] [20.837489,52.191728] [23.149389,52.029194] [18.606203,53.012261] [18.666103,53.028647] [18.612808,53.017628] [16.180513,51.204503] [15.570354,51.263245] [14.663347,53.380975] [14.382222,53.122325] [18.826722,49.719731] [19.234446,49.671602] [20.604998,50.872549] [20.533506,50.823108] [19.410942,54.167847] [23.642153,53.215492] [23.00075,53.859528] [18.635283,54.353336] [18.536382,54.525274] [17.046722,54.463611] [19.830422,49.971047] [19.726833,50.025028] [21.014803,52.225157] [19.687672,52.556279] [19.709791,52.550938] [22.569133,51.259431] [22.997889,50.590806] [21.972375,51.814367] [23.290247,50.716628] [16.3175,51.799722] [16.269677,50.768729] [17.950278,50.676856] [18.120739,50.423533] [22.307681,54.305908] [19.968892,53.694628] [14.5539,53.432169] [18.516139,50.111181] [19.926189,50.057678] [21.851006,49.546539] [18.493331,54.560836] [18.557781,54.328336] [18.620274,54.380279] [19.960083,49.293564] [15.228667,52.738214] [15.127808,51.642656] [19.079261,52.672648] [16.238509,50.447096] [16.959519,52.398175] [19.027318,49.813464] [18.639069,49.738136] [19.458797,50.710889] [20.053492,50.069308] [17.975861,54.120694] [19.569869,50.277569] [20.259167,50.0075] [21.004724,52.219298] [22.598608,51.163542] [17.141125,51.115933] [17.012689,51.086225] [16.65366,50.433493] [15.431719,51.31763] [16.819786,50.592325] [15.008175,51.150391] [19.529786,51.75805] [19.421231,51.856692] [16.877289,52.420319] [16.704572,53.6989] [19.231222,50.329111] [21.277367,50.429014] [20.016822,50.019036] [21.004167,50.020169] [22.054381,53.181394] [18.464911,54.465758] [18.182972,54.104111] [21.042458,52.290864] [20.454653,52.285858] [21.961089,51.419047] [18.241044,52.793122] [15.31219,50.912475] [14.941319,50.972167] [17.995708,53.134083] [20.429892,52.053811] [21.111186,52.080625] [18.416878,50.876983] [22.112467,50.529892] [22.34845,53.828455] [17.773464,52.501389] [16.172544,54.193986] [18.975028,50.264611] [20.122561,50.100569] [20.714403,49.619281] [21.440942,50.299128] [23.181744,53.129306] [18.527636,53.965664] [21.116833,49.633714] [20.962156,52.280939] [21.033819,52.160772] [20.955928,52.407578] [21.237297,52.115725] [18.780908,52.888422] [15.739722,50.736389] [17.899137,50.666736] [22.756239,49.784339] [18.048389,51.749053] [16.759572,53.154408] [19.184399,50.285956] [18.990236,50.099903] [18.689527,50.029416] [18.455548,50.007629] [19.949189,50.010575] [20.018317,50.099361] [18.701111,54.367778] [18.579722,54.431667] [19.477464,50.159406] [21.147474,51.399084] [15.518861,51.939783] [19.059314,52.658467] [18.684258,53.080647] [17.934017,53.662117] [17.291333,50.942073] [17.987906,53.121764] [19.517556,51.291175] [21.454617,49.744886] [22.038056,54.124819] [18.655764,50.279333] [18.772375,50.3165] [19.117426,50.817676] [19.130111,50.836389] [20.486075,53.789233] [19.895358,50.081197] [20.993,50.017875] [18.657497,54.400833] [19.032899,54.031247] [17.746194,54.546167] [20.028992,49.483597] [20.791556,51.83512] [22.282001,52.172145] [15.206667,52.172222] [15.122444,52.437722] [18.762139,53.49355] Wroc≈Çaw Dzier≈ºoni√≥w Nowa Ruda Jelenia G√≥ra ≈Å√≥d≈∫ Kƒôdzierzyn-Ko≈∫le Rzesz√≥w Konin Bor√≥wiec Szczecin Katowice Czerwionka-Leszczyny Ma≈Çogoszcz Krak√≥w Krempna Bia≈Çystok Suwa≈Çki ≈Åeba Piast√≥w Bia≈Ça Podlaska Toru≈Ñ Legnica Boles≈Çawiec Widuchowa Ustro≈Ñ ≈ªywiec Kielce Nowiny ElblƒÖg Borsukowizna August√≥w Gda≈Ñsk Gdynia S≈Çupsk Skawina Kasz√≥w Warszawa P≈Çock Lublin Bia≈Çy S≈Çup Jarczew Zamo≈õƒá Wschowa Wa≈Çbrzych Opole Zdzieszowice Go≈Çdap Ostr√≥da Rybnik Ryman√≥w-Zdr√≥j Zakopane Gorz√≥w Wielkopolski ≈ªary W≈Çoc≈Çawek Kudowa-Zdr√≥j Pozna≈Ñ Bielsko-Bia≈Ça Cieszyn Z≈Çoty Potok Ko≈õcierzyna Olkusz Szar√≥w Wilczopole K≈Çodzko Osiecz√≥w ZƒÖbkowice ≈ölƒÖskie Zgorzelec Zgierz Szczecinek DƒÖbrowa G√≥rnicza Po≈Çaniec Tarn√≥w ≈Åom≈ºa Liniewko Ko≈õcierskie Granica Pu≈Çawy Inowroc≈Çaw Czerniawa Dzia≈Çoszyn Bydgoszcz ≈ªyrard√≥w Konstancin-Jeziorna Olesno Nisko E≈Çk Krzy≈º√≥wka Koszalin Nowy SƒÖcz Mielec Starogard Gda≈Ñski Szymbark Legionowo Otwock Ciechocinek Karpacz Przemy≈õl Kalisz Pi≈Ça Sosnowiec Tychy ≈ªory Wodzis≈Çaw ≈ölƒÖski Sopot Trzebinia Radom Zielona G√≥ra Koniczynka Zielonka O≈Çawa Parzniewice Jas≈Ço Diabla G√≥ra Gliwice Zabrze Czƒôstochowa Olsztyn Malbork Lƒôbork Nowy Targ Belsk Du≈ºy Siedlce Smolary Bytnickie Sulƒôcin GrudziƒÖdz Wroc≈Çaw Dzier≈ºoni√≥w Nowa Ruda Jelenia G√≥ra ≈Å√≥d≈∫ Kƒôdzierzyn-Ko≈∫le Rzesz√≥w Konin K√≥rnik Szczecin Katowice Czerwionka-Leszczyny Ma≈Çogoszcz Krak√≥w Krempna Bia≈Çystok Suwa≈Çki ≈Åeba Piast√≥w Bia≈Ça Podlaska Toru≈Ñ Legnica Boles≈Çawiec Widuchowa Ustro≈Ñ ≈ªywiec Kielce Sitk√≥wka-Nowiny ElblƒÖg Krynki August√≥w Gda≈Ñsk Gdynia S≈Çupsk Skawina Liszki Warszawa P≈Çock Lublin Zwierzyniec Wola Mys≈Çowska Zamo≈õƒá Wschowa Wa≈Çbrzych Opole Zdzieszowice Go≈Çdap Ostr√≥da Rybnik Ryman√≥w Zakopane Gorz√≥w Wielkopolski ≈ªary W≈Çoc≈Çawek Kudowa-Zdr√≥j Pozna≈Ñ Bielsko-Bia≈Ça Cieszyn Jan√≥w Ko≈õcierzyna Olkusz K≈Çaj G≈Çusk K≈Çodzko Osiecznica ZƒÖbkowice ≈ölƒÖskie Zgorzelec Zgierz Szczecinek DƒÖbrowa G√≥rnicza Po≈Çaniec Tarn√≥w ≈Åom≈ºa Nowa Karczma Kampinos Pu≈Çawy Inowroc≈Çaw ≈öwierad√≥w-Zdr√≥j Bogatynia Bydgoszcz ≈ªyrard√≥w Konstancin-Jeziorna Olesno Nisko E≈Çk Witkowo Koszalin Nowy SƒÖcz Mielec Starogard Gda≈Ñski Gorlice Legionowo Otwock Ciechocinek Karpacz Przemy≈õl Kalisz Pi≈Ça Sosnowiec Tychy ≈ªory Wodzis≈Çaw ≈ölƒÖski Sopot Trzebinia Radom Zielona G√≥ra ≈Åysomice Tuchola O≈Çawa Wola Krzysztoporska Jas≈Ço Kruklanki Gliwice Zabrze Czƒôstochowa Olsztyn Malbork Lƒôbork Nowy Targ Gr√≥jec Siedlce Bytnica Sulƒôcin GrudziƒÖdz Wroc≈Çaw dzier≈ºoniowski k≈Çodzki Jelenia G√≥ra ≈Å√≥d≈∫ kƒôdzierzy≈Ñsko-kozielski Rzesz√≥w Konin pozna≈Ñski Szczecin Katowice rybnicki jƒôdrzejowski Krak√≥w jasielski Bia≈Çystok Suwa≈Çki lƒôborski pruszkowski Bia≈Ça Podlaska Toru≈Ñ Legnica boles≈Çawiecki gryfi≈Ñski cieszy≈Ñski ≈ºywiecki Kielce kielecki ElblƒÖg sok√≥lski augustowski Gda≈Ñsk Gdynia S≈Çupsk krakowski Warszawa P≈Çock Lublin zamojski ≈Çukowski Zamo≈õƒá wschowski Wa≈Çbrzych Opole krapkowicki go≈Çdapski ostr√≥dzki Rybnik kro≈õnie≈Ñski tatrza≈Ñski Gorz√≥w Wielkopolski ≈ºarski W≈Çoc≈Çawek Pozna≈Ñ Bielsko-Bia≈Ça czƒôstochowski ko≈õcierski olkuski wielicki lubelski zƒÖbkowicki zgorzelecki zgierski szczecinecki DƒÖbrowa G√≥rnicza staszowski Tarn√≥w ≈Åom≈ºa warszawski zachodni pu≈Çawski inowroc≈Çawski luba≈Ñski Bydgoszcz ≈ºyrardowski piaseczy≈Ñski oleski ni≈ºa≈Ñski e≈Çcki gnie≈∫nie≈Ñski Koszalin Nowy SƒÖcz mielecki starogardzki gorlicki legionowski otwocki aleksandrowski jeleniog√≥rski Przemy≈õl Kalisz pilski Sosnowiec Tychy ≈ªory wodzis≈Çawski Sopot chrzanowski Radom Zielona G√≥ra toru≈Ñski tucholski o≈Çawski piotrkowski gi≈ºycki Gliwice Zabrze Czƒôstochowa Olsztyn malborski nowotarski gr√≥jecki Siedlce sulƒôci≈Ñski GrudziƒÖdz DOLNO≈öLƒÑSKIE ≈Å√ìDZKIE OPOLSKIE PODKARPACKIE WIELKOPOLSKIE ZACHODNIOPOMORSKIE ≈öLƒÑSKIE ≈öWIƒòTOKRZYSKIE MA≈ÅOPOLSKIE PODLASKIE POMORSKIE MAZOWIECKIE LUBELSKIE KUJAWSKO-POMORSKIE WARMI≈ÉSKO-MAZURSKIE LUBUSKIE             É  )
-Ñ1	:
-B 							ÜJ$
-
-
-
-
-
-
-S([,àc0	l4 äq8ã|<ã|<åÑ@ çD"éïH$ûL&ê¶P(ë¶P(í¶P(®T*∞X,ÜJ$ï∫\.√`0 Àd2ó”h4 ó€l6      ! Áp8!!!!!! !ãÏt:""""""""îÙx<########˝|>$$$$$$$$Å@%%%%%%%%ÖB&&&&&&&&âD''''''''	çD((((((((õ%ëF))))))))ú-ïH********é-ïH++++++++6ôJ,,,,,, ,>ùL------ -F°N......,. N•P//////-/ÄW©R000000.0 X≠T111111/1a±V22222202 iµX33333313!wπZ44444424Ω\55555535ÜJ$66666646 É¡^77777757l488888868îâ≈`99999979"Å@::::::8:#˝|>;;;;;;9;$˝|><<<<<<:<%î…b======;=ÄüÕd>>>>>><>¶ß—f??????=?ßÆ’h@@@@@@>@∞ŸAAAAAA?A ∫›jBBBBBB@B √·lCCCCCCAC ÀÂ0DDDDDDBD ”ÈnEEEEEECEl4FFFFFFDF›ÌpGGGGGGEG%‰ÒrHHHHHHFH(ÏıtIIIIIIGIé%ëFJJJJJJ J)ˆ˘vKKKKKKHK    LLLLLLIL    MMMMMMJM*¯˝NNNNNN N -OOOOOOKO+yPPPPPPLP 
-{QQQQQQMQ¨ RRRRRRNR≠}SSSSSSOS ∫›jTTTTTTPTÅ"UUUUUUQU +ÅVVVVVVRVñ3ÉWWWWWWSWl4XXXXXXTX<ÖYYYYYYUYÆD"áZZZZZZVZ/Å@[[[[[[ [M&q\\\\\\W\é%ëF]]]]]]X]éU*â^^^^^^Y^0^.ã______Z_±f2ç``````[`2h6èaaaaaa a2p:{bbbbbb\b≥~>ëcccccc]céÖBìdddddd^dîçFïeeeeee_e4ëJóffffff`fµôNôggggggagßRõhhhhhh h ™Vùiiiiiibi∂≤Züjjjjjjcj S(kkkkkkdkl4llllllel7º^°mmmmmmfmî¡b£nnnnnngnó|<ooooooho8Õf•pppppp p9‘jßqqqqqqiq∫%ëFrrrrrrjré%ëFssssssksé›n©ttttttltªÂr´uuuuuumuºÓv≠vvvvvvnvzØwwwwwwowa±Vxxxxxxpxõ˘~±yyyyyyqyÉ≥zzzzzzrz
-áµ{{{{{{s{=ã∑||||||t| èπ}}}}}}u}#ìª~~~~~~v~ +óΩwl4ÄÄÄÄÄÄxÄ	l4ÅÅÅÅÅÅyÅ˝|>ÇÇÇÇÇÇzÇ>5õøÉÉÉÉÉÉ{É<ü¡ÑÑÑÑÑÑ|ÑéE£√ÖÖÖÖÖÖ}ÖÄOß≈ÜÜÜÜÜÜ~ÜÄÆ’háááááá áøV´«àààààà à¿^Ø…âââââââA`≥ÀääääääÄä¬~>ëããããããÅã√h∑ÕååååååÇåƒqªççççççÉçEøœééééééÑé É√—èèèèèèÖèFã«”êêêêêêÜêìÀ’ëëëëëëáë ìÀ’ííííííàíGüœ◊ììììììâì	l4îîîîîîäî	<ÖïïïïïïãïH˝|>ññññññåñ•”Ÿóóóóóóçó≠◊#òòòòòòéòI¥€€ôôôôôôèô Ωﬂ›ööööööêöñ≈„ﬂõõõõõõ õÄœÁaúúúúúúëúÀ◊Î·ùùùùùùíùêﬁÔ„
